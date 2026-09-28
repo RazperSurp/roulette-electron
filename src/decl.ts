@@ -4,4 +4,3 @@ const GameType = {
 } as const
 
 export type GameType = (typeof GameType)[keyof typeof GameType];
-

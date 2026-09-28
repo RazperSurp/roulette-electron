@@ -1,6 +1,6 @@
 import config from './config.json' with { type: 'json' };
 import { app, BrowserWindow, nativeImage } from 'electron';
-import { GameType } from './decl.ts';
+import type { GameType } from './decl.ts';
 
 export default class Core {
 
