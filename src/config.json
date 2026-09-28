@@ -1,0 +1,10 @@
+{
+    "logoPath": "./assets/img/drum5x.png",
+    "htmlPath": "./html",
+    "browserWindow": {
+        "width": 600,
+        "height": 400,
+        "minWidth": 600,
+        "minHeight": 400
+    }
+}

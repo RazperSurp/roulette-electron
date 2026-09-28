@@ -1,0 +1,27 @@
+{
+  "name": "roulette",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "main.ts",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "debug": "^4.4.3",
+    "env-paths": "^3.0.0",
+    "graceful-fs": "^4.2.11",
+    "ms": "^2.1.3",
+    "progress": "^2.0.3",
+    "semver": "^7.8.5",
+    "sumchecker": "^3.0.1",
+    "undici": "^7.30.0",
+    "undici-types": "^7.24.6"
+  },
+  "devDependencies": {
+    "electron": "^44.4.5"
+  }
+}

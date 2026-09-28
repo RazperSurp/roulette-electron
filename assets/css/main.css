@@ -1,0 +1,26 @@
+@import url(decl.css);
+
+* {
+    font-family: 'consolas';
+    letter-spacing: -1px;
+    color: var(--accent-color);
+}
+
+html {
+    height: 3px;
+    background-color: var(--main-color);
+    animation: gradientGlitch linear 2s infinite;
+    background: linear-gradient(180deg, 
+        var(--main-color) 30%, 
+        var(--line-color) 40%, 
+        var(--line-color) 50%, 
+        var(--main-color) 60%
+    );
+    
+}
+
+button {
+    border-radius: 10px;
+    transition: .15s;
+    background-color: var(--accent-color);
+}

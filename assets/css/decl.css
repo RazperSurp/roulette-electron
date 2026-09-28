@@ -1,0 +1,13 @@
+:root {
+    --main-color: #032006;
+    --line-color: #032f07;
+    --accent-color: #00d700;
+}
+
+@keyframes gradientGlitch {
+    from {
+        background-position-y: 0px;
+    } to {
+        background-position-y: 3px;
+    }
+}
