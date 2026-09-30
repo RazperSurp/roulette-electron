@@ -21,4 +21,10 @@ export default class Toolbox {
 
         return Math.round(((Math.random() * (max - min)) + min) * MULTIPLIER) / MULTIPLIER;
     }
+
+    static roundPrecision(float, precision = 1) {
+        const MULTIPLIER = Math.pow(10, Math.floor(precision));
+        
+        return Math.round(float * MULTIPLIER) / MULTIPLIER;
+    }
 }

@@ -14,7 +14,7 @@
             "root": [
                 {
                     "tag": "p",
-                    "text": "Выберите режим игры."
+                    "text": "ВЫБЕРИТЕ РЕЖИМ ИГРЫ"
                 }
             ],
             "panel": [
@@ -25,6 +25,58 @@
                 { 
                     "text": "ПРОТИВ БОТА",
                     "value": "vsbot"
+                }
+            ]
+        },
+        "solo": {
+            "root": [
+                {
+                    "tag": "div",
+                    "class": "game",
+                    "children": [
+                        {
+                            "tag": "img",
+                            "src": "../img/drum5x.png"
+                        },
+                        {
+                            "tag": "div",
+                            "class": "game-info",
+                            "children": [
+                                {
+                                    "tag": "p",
+                                    "text": "РУССКАЯ РУЛЕТКА // САМОЛИКВИДАЦИЯ"
+                                },
+                                {
+                                    "tag": "p",
+                                    "text": "ПАТРОН: 1 // КАМОР:_",
+                                    "children": [
+                                        {
+                                            "tag": "span",
+                                            "id": "camora-left",
+                                            "text": "8"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "tag": "p",
+                                    "text": "ВЕРОЯТНОСТЬ:_",
+                                    "children": [
+                                        {
+                                            "tag": "span",
+                                            "id": "shoot-chance",
+                                            "text": "0.125%"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "panel": [
+                { 
+                    "text": "ВЫСТРЕЛ",
+                    "value": "shot"
                 }
             ]
         }

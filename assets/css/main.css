@@ -51,9 +51,21 @@ button {
 #panel > li {
     width: fit-content;
     background-color: #00000000;
-    transition: background-color .15s;
 }
 
 #panel > li.selected {
     background: var(--select-color);
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.game > img {
+    width: 200px;
+    height: 100%;
+    transition: 0.5s;
+    mix-blend-mode: color-dodge;
 }

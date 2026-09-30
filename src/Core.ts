@@ -17,7 +17,7 @@ export default class Core {
     }
 
     configureWindow(): void {
-        // this.win.removeMenu();
+        this.win.removeMenu();
         this.win.setIcon(nativeImage.createFromPath(config.logoPath));
     }
 
