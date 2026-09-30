@@ -1,6 +1,9 @@
 {
     "logoPath": "./assets/img/drum5x.png",
     "htmlPath": "./html",
+    "symbolAppearInterval": 100,
+    "symbolAppearIterations": 3,
+    "symbolAppearIterationInterval": 2,
     "browserWindow": {
         "width": 800,
         "height": 620,
@@ -10,7 +13,7 @@
         "index": {
             "root": [
                 {
-                    "type": "p",
+                    "tag": "p",
                     "text": "Выберите режим игры."
                 }
             ],

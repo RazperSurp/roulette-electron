@@ -4,6 +4,8 @@
     font-family: 'consolas';
     letter-spacing: -1px;
     color: var(--accent-color);
+    line-height: 25px;
+    margin: unset;
 }
 
 html {
@@ -19,8 +21,39 @@ html {
     
 }
 
+body {
+    height: 100vh;
+    overflow: hidden;
+    padding: 10px;
+}
+/* 
+#root {
+    height: 200px;
+    padding: 10px;
+    border: 1px solid var(--accent-color);
+} */
+
+#root {
+    height: 200px;
+    border-bottom: 1px solid var(--accent-color);
+}
+
+#panel {
+    list-style-type: '> ';
+}
+
 button {
     border-radius: 10px;
     transition: .15s;
     background-color: var(--accent-color);
+}
+
+#panel > li {
+    width: fit-content;
+    background-color: #00000000;
+    transition: background-color .15s;
+}
+
+#panel > li.selected {
+    background: var(--select-color);
 }

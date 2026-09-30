@@ -2,6 +2,7 @@
     --main-color: #032006;
     --line-color: #032f07;
     --accent-color: #00d700;
+    --select-color: #124416;
 }
 
 @keyframes gradientGlitch {
